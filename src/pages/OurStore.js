@@ -3,10 +3,11 @@ import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
 import ReactStars from "react-rating-stars-component";
 import ProductCard from "../components/ProductCard";
+import Colors from "../components/Colors";
 
 const OurStore = () => {
   const [grid, setGrid] = useState(4);
-  alert(grid);
+  //alert(grid);
 
   return (
     <>
@@ -79,20 +80,7 @@ const OurStore = () => {
                   <h5 className="sub-title">Colors</h5>
                   <div>
                     <div>
-                      <ul className="colors ps-0">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                      </ul>
+                      <Colors />
                     </div>
                   </div>
                   <h5 className="sub-title">Size</h5>
@@ -225,7 +213,7 @@ const OurStore = () => {
                     </select>
                   </div>
                   <div className="d-flex align-items-center gap-10">
-                    <p className="totalproducts">21 Products</p>
+                    <p className="mb-0">21 Products</p>
                     <div className="d-flex gap-10 align-items-center grid">
                       <img
                         onClick={() => {
@@ -247,7 +235,7 @@ const OurStore = () => {
                         onClick={() => {
                           setGrid(6);
                         }}
-                        src="images/2.svg"
+                        src="images/gr2.svg"
                         className="d-block img-fluid"
                         alt="grid"
                       />

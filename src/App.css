@@ -32,7 +32,7 @@
   padding: 15px;
 }
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 a {
   text-decoration: none;
@@ -202,23 +202,23 @@ footer .input-group-text {
   width: 25%;
   padding: 10px 10px 10px 20px;
 }
-.categories>div>div {
+.categories > div > div {
   width: 60%;
 }
-.categories>div:nth-child(1),
-.categories>div:nth-child(2),
-.categories>div:nth-child(3),
-.categories>div:nth-child(4) {
+.categories > div:nth-child(1),
+.categories > div:nth-child(2),
+.categories > div:nth-child(3),
+.categories > div:nth-child(4) {
   border-bottom: 1px solid var(--color-ededed);
 }
-.categories>div:nth-child(1),
-.categories>div:nth-child(2),
-.categories>div:nth-child(3) {
+.categories > div:nth-child(1),
+.categories > div:nth-child(2),
+.categories > div:nth-child(3) {
   border-right: 1px solid var(--color-ededed);
 }
-.categories>div:nth-child(5),
-.categories>div:nth-child(6),
-.categories>div:nth-child(7) {
+.categories > div:nth-child(5),
+.categories > div:nth-child(6),
+.categories > div:nth-child(7) {
   border-right: 1px solid var(--color-ededed);
 }
 /* Categories Section Ends */
@@ -253,6 +253,20 @@ footer .input-group-text {
   font-size: 13px;
   line-height: 22px;
   color: var(--color-777777);
+}
+.blog-post-card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+}
+.blog-post-card p {
+  color: var(--color-777777);
+  font-size: 14px;
+}
+.blog-post-card a {
+  font-size: 15px;
+  color: var(--color-777777);
+  margin-bottom: 20px;
 }
 /* Blogs Section End */
 
@@ -320,7 +334,7 @@ footer .input-group-text {
 /* Famous Card */
 .famous-card .famous-content {
   top: 10%;
-  left: 10%;
+  left: 5%;
 }
 .famous-card img {
   border-radius: 10px;
@@ -331,6 +345,7 @@ footer .input-group-text {
   font-weight: 400;
   color: white;
   margin-bottom: 7px;
+  text-transform: uppercase;
 }
 .famous-content h6 {
   font-size: 13px;
@@ -369,11 +384,11 @@ footer .input-group-text {
 }
 .filter-card .form-check-input:focus {
   box-shadow: none;
-  border-color: rgba(0,0,0, 0.25);
+  border-color: rgba(0, 0, 0, 0.25);
 }
 .filter-card .form-check-input:checked {
   background-color: var(--color-febd69);
-  border-color: rgba(0,0,0, 0.25);
+  border-color: rgba(0, 0, 0, 0.25);
 }
 .sub-title {
   font-size: 14px;
@@ -449,5 +464,118 @@ footer .input-group-text {
 /* Our Store Ends*/
 
 /* Contact Page*/
-
+.contact-inner-wrapper {
+  padding: 30px 20px;
+  border-radius: 15px;
+  background-color: white;
+  gap: 15px;
+}
+.contact-inner-wrapper > div {
+  width: 49%;
+}
+.contact-title {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+  margin-top: 0;
+}
+.contact-inner-wrapper form .form-control {
+  background-color: var(--color-f5f5f7);
+  border-radius: 10px;
+  border-color: transparent;
+  padding: 10px;
+}
+.contact-inner-wrapper ul {
+  list-style: none;
+}
+.contact-inner-wrapper address,
+.contact-inner-wrapper a,
+.contact-inner-wrapper p {
+  color: var(--color-777777);
+}
 /* Contact Page Ends */
+
+/* Compare Product */
+.compare-product-card,
+.wishlist-card {
+  padding: 20px 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+.compare-product-card .cross,
+.wishlist-card .cross {
+  top: 15px;
+  right: 15px;
+  width: 20px;
+  padding: 3px;
+  cursor: pointer;
+}
+.compare-product-details h5.title,
+.wishlist-card h5.title {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  color: var(--color-1c1c1b);
+}
+.compare-product-details h6.price,
+.wishlist-card h6.price {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.compare-product-card .product-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+/* Compare Product Ends */
+
+/* Login Section */
+.login-card {
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+.login-card h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-777777);
+}
+.login-card p {
+  font-size: 15px;
+  color: var(--color-777777);
+}
+.login-card .form-control {
+  height: 50px;
+  background-color: var(--color-f5f5f7);
+  color: var(--color-777777);
+  font-size: 14px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+.login-card a {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-1c1c1b);
+}
+.login-card .signup {
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+}
+.login-card .signup:hover {
+  background-color: var(--color-131921);
+  color: white;
+}
+/* Login Section Ends */
+
+/* Policy Pages */
+.policy {
+  background-color: white;
+  padding: 30px;
+}
+/* Policy Pages Ends */
