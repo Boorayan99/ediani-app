@@ -11,7 +11,7 @@ const ProductCard = (props) => {
       <div
         className={`${location.pathname === "/ourStore" ? `gr-${grid}` : "col-3"}`}
       >
-        <Link className="product-card position-relative">
+        <Link to="product/:id" className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
             <Link>
               <img src="images/wish.svg" alt="wishlist" />
@@ -91,7 +91,7 @@ const ProductCard = (props) => {
             <ReactStars
               count={5}
               size={24}
-              value="3"
+              value={3}
               edit={false}
               activeColor="#ffd700"
             />

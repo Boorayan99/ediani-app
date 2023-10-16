@@ -29,8 +29,8 @@ function App() {
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
-            <Route path="ourStore" element={<OurStore />} />
-            <Route path="product/:id" element={<LoneProduct />} />
+            <Route path="products" element={<OurStore />} />
+            <Route path="products/:id" element={<LoneProduct />} />
             <Route path="blog" element={<Blog />} />
             <Route path="blog/:id" element={<BlogPost />} />
             <Route path="compare-product" element={<CompareProduct />} />
