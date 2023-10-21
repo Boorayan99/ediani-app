@@ -210,7 +210,6 @@ const Home = () => {
             </div>
             <ProductCard />
             <ProductCard />
-            
           </div>
         </div>
       </section>
@@ -307,7 +306,6 @@ const Home = () => {
           <div className="row">
             <ProductCard />
             <ProductCard />
-            
           </div>
         </div>
       </section>
