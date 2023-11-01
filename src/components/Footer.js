@@ -56,18 +56,18 @@ const Footer = () => {
                   info@ediani.co.ke
                 </a>
                 <div className="social-icons d-flex align-items-center gap-20 mt-4">
-                  <a className="text-white" to="#">
+                  <Link to="#" className="text-white">
                     <BsWhatsapp className="fs-5" />
-                  </a>
-                  <a className="text-white" to="#">
+                  </Link>
+                  <Link to="#" className="text-white">
                     <BsTwitter className="fs-5" />
-                  </a>
-                  <a className="text-white" to="#">
+                  </Link>
+                  <Link to="#" className="text-white">
                     <BsInstagram className="fs-5" />
-                  </a>
-                  <a className="text-white" to="#">
+                  </Link>
+                  <Link to="#" className="text-white">
                     <BsYoutube className="fs-5" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -95,9 +95,15 @@ const Footer = () => {
               <h4 className="text-white mb-4">Account</h4>
               <div className="footer-links d-flex flex-column">
                 <Link className="text-white py-2 mb-1">Search</Link>
-                <Link className="text-white py-2 mb-1">About Us</Link>
-                <Link className="text-white py-2 mb-1">FAQ</Link>
-                <Link className="text-white py-2 mb-1">Contact</Link>
+                <Link to="/about" className="text-white py-2 mb-1">
+                  About Us
+                </Link>
+                <Link to="/faq" className="text-white py-2 mb-1">
+                  FAQ
+                </Link>
+                <Link to="contact" className="text-white py-2 mb-1">
+                  Contact
+                </Link>
                 <Link className="text-white py-2 mb-1">Size Chart</Link>
               </div>
             </div>

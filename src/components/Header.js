@@ -10,12 +10,12 @@ const Header = () => {
           <div className="row">
             <div className="col-6">
               <p className="text-white mb-0">
-                Free Delivery On Orders Above Kshs 25,000/-
+                Free Delivery On Orders Above Kshs 5,000/=
               </p>
             </div>
             <div className="col-6">
               <p className="text-end text-white mb-0">
-                Call or Whatsapp to Order:{" "}
+                Call or Whatsapp to Order:
                 <a className="text-white" href="tel: +254 715 018 013">
                   +254 715 018 013
                 </a>
@@ -29,7 +29,7 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
-                <Link className="title-text">Ediani Tech</Link>
+                <Link to="/" className="title-text">Ediani Tech</Link>
               </h2>
             </div>
             <div className="col-5">
@@ -49,7 +49,7 @@ const Header = () => {
             <div className="col-5">
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
-                  <Link to="/compare-product" className="d-flex align-items-center gap-10 text-red">
+                  <Link to="/compare-product" className="d-flex align-items-center gap-10 text-white">
                     <img src="images/compare.svg" alt="compare" />
                     <p className="mb-0">
                       Compare <br /> Products
@@ -76,7 +76,7 @@ const Header = () => {
                   <Link to="/cart" className="d-flex align-items-center gap-10 text-white">
                     <img src="images/cart.svg" alt="cart" />
                     <div className="d-flex flex-column">
-                      <span className="badge bg-white text-dark">8</span>
+                      <span className="badge bg-white text-dark">2</span>
                       <p className="mb-0">Kshs 15,500</p>
                     </div>
                   </Link>
@@ -110,18 +110,23 @@ const Header = () => {
                       aria-labelledby="dropdownMenuButton1"
                     >
                       <li>
-                        <Link class="dropdown-item text-white" to=" ">
-                          Action
+                        <Link className="dropdown-item text-white" to=" ">
+                          Cameras
                         </Link>
                       </li>
                       <li>
-                        <Link class="dropdown-item text-white" to=" ">
-                          Another action
+                        <Link className="dropdown-item text-white" to=" ">
+                          Laptops
                         </Link>
                       </li>
                       <li>
-                        <Link class="dropdown-item text-white" to=" ">
-                          Something else here
+                        <Link className="dropdown-item text-white" to=" ">
+                          TVs
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item text-white" to=" ">
+                          Watches
                         </Link>
                       </li>
                     </ul>

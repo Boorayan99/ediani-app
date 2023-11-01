@@ -16,6 +16,10 @@
   --color-ededed: #ededed;
   --color-777777: #777777;
   --color-1c1c1b: #1c1c1b;
+  --color-d3d3cf: #d3d3cf;
+  --color-1be0d0: #1be0d0;
+  --color-00ffea: #00ffea;
+  --color-e7ac5e: #e7ac5e;
 }
 .title-text {
   color: var(--color-febd69);
@@ -73,14 +77,14 @@ a {
 
 /* Header */
 .header-top-strip {
-  background-color: var(--color-131921);
-  border-bottom: 1px solid var(--color-3b4149);
+  background-color: var(--color-3b4149);
+  border-bottom: 1px solid var();
 }
 .header-upper {
-  background-color: var(--color-131921);
+  background-color: #be9d9d;
 }
 .header-bottom {
-  background-color: var(--color-131921);
+  background-color: #be9d9d;
 }
 .header-upper .input-group-text {
   background-color: var(--color-febd69);
@@ -115,7 +119,7 @@ a {
   background-color: transparent;
   color: var(--color-febd69) !important;
 }
-/* Header Ends */
+/* Header End */
 
 /* Footer */
 footer {
@@ -129,7 +133,7 @@ footer .input-group-text {
   color: white;
   padding: 8px 17px;
 }
-/* Footer Ends */
+/* Footer End */
 
 /* Home Page */
 .main-banner-content {
@@ -192,7 +196,13 @@ footer .input-group-text {
 .home-wrapper-2 {
   background-color: var(--color-f5f5f7);
 }
-/* Home Wrapper 2 Ends*/
+/* Home Wrapper 2 End */
+
+/* Store Wrapper */
+.store-wrapper {
+  background-color: var(--color-777777);
+}
+/* Store Wrapper End */
 
 /* Categories Section */
 .categories {
@@ -223,8 +233,8 @@ footer .input-group-text {
 .categories > div:nth-child(7) {
   border-right: 1px solid var(--color-ededed);
 }
-/* Categories Section Ends */
-/* Home Page Ends */
+/* Categories Section End */
+/* Home Page End */
 
 /* Blogs Section */
 .blog-card {
@@ -323,7 +333,7 @@ footer .input-group-text {
   top: 2%;
   right: 10px;
 }
-/* Product Card Ends Here */
+/* Product Card End */
 
 /* Special Product Card*/
 .special-product-card {
@@ -331,7 +341,7 @@ footer .input-group-text {
   border-radius: 10px;
   background-color: white;
 }
-/* Special Product Card Ends Here */
+/* Special Product Card End */
 
 /* Famous Card */
 .famous-card .famous-content {
@@ -361,7 +371,7 @@ footer .input-group-text {
   font-weight: 100;
   color: white;
 }
-/* Famous Card Ends */
+/* Famous Card End */
 
 /* Our Store */
 .filter-card {
@@ -463,7 +473,7 @@ footer .input-group-text {
 .gr-12 .action-bar {
   top: 17%;
 }
-/* Our Store Ends*/
+/* Our Store End */
 
 /* Contact Page*/
 .contact-inner-wrapper {
@@ -496,7 +506,7 @@ footer .input-group-text {
 .contact-inner-wrapper p {
   color: var(--color-777777);
 }
-/* Contact Page Ends */
+/* Contact Page End */
 
 /* Compare Product */
 .compare-product-card,
@@ -533,7 +543,7 @@ footer .input-group-text {
   padding: 10px 0px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-/* Compare Product Ends */
+/* Compare Product End */
 
 /* Login Section */
 .login-card {
@@ -574,14 +584,14 @@ footer .input-group-text {
   background-color: var(--color-131921);
   color: white;
 }
-/* Login Section Ends */
+/* Login Section End */
 
 /* Policy Page */
 .policy {
   background-color: white;
   padding: 30px;
 }
-/* Policy Page Ends */
+/* Policy Page End */
 
 /* Main Product */
 .description-wrapper h4,
@@ -708,7 +718,7 @@ footer .input-group-text {
   border-bottom: 1px solid #eaeaea;
 }
 .cart-header h4 {
-  font-size: 13px;
+  font-size: 16px;
   color: var(--color-777777);
 }
 .cart-col-1 {
@@ -719,7 +729,7 @@ footer .input-group-text {
   font-size: 14px;
 }
 .cart-col-2 {
-  width: 15%;
+  width: 10%;
 }
 .cart-col-3 {
   width: 15%;
@@ -733,7 +743,7 @@ footer .input-group-text {
 }
 /* Cart Page End */
 
-/* Checkout Page */
+/* Shipping & Checkout Page */
 .total {
   font-size: 14px;
   color: var(--color-1c1c1b);
@@ -742,5 +752,6 @@ footer .input-group-text {
   font-size: 16px;
   color: var(--color-777777);
 }
-/* Checkout Page End */
+/* Shipping & Checkout Page End */
 
+/* Get in there Booray... That one was for company */
